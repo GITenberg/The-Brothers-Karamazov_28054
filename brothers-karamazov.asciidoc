@@ -1,7 +1,7 @@
-:TOC:
-
 = The Brothers Karamazov
-Translated from the Russian of Fyodor Dostoyevsky by Constance Garnett
+Fyodor Dostoyevsky
+
+:toc:
 
 == Part I
 
