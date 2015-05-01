@@ -1,0 +1,27 @@
+language: ruby
+sudo: required
+before_install:
+- gem install asciidoctor tilt
+- sudo apt-get install xsltproc
+script:
+- git clone https://github.com/rdhyee/asciidoctor-htmlbook.git
+- asciidoctor -a toc -b xhtml5 -d book -T ./asciidoctor-htmlbook/htmlbook-autogen/
+  -d book The-Brothers-Karamazov.asciidoc -o The-Brothers-Karamazov.html
+- git clone https://github.com/sethwoodworth/HTMLBook
+- xsltproc -stringparam external.assets.list " " ./HTMLBook/htmlbook-xsl/epub.xsl
+  The-Brothers-Karamazov.html
+- cp ./HTMLBook/stylesheets/epub/epub.css OEBPS
+- cp cover.png OEBPS/cover.png
+- zip -rX The-Brothers-Karamazov.epub mimetype
+- zip -rX The-Brothers-Karamazov.epub OEBPS/ META-INF/
+branches:
+  only:
+  - master
+deploy:
+  skip_cleanup: true
+  provider: releases
+  api_key:
+    secure: camcCzDaI/GoTa2LQqMc2rHAR5QQ9xMUnfXlymfNJKFvUn/m0vQ5uLBmVVyDUrFu/lMioDZ5RufOSE7nOAUf3hfNlg2ruQygolAhJ4McbGL03D734EpyC2iBjt8uBmd0rpTnTjiaC1iVPUSQodY0JkMMVcSB1FrbLP0mUbrraR4=
+  file: The-Brothers-Karamazov.epub
+  on:
+    repo: sethwoodworth/The-Brothers-Karamazov_28054
