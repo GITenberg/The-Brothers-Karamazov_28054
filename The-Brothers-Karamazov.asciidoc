@@ -1,24 +1,24 @@
 = The Brothers Karamazov
 Fyodor Dostoyevsky
-v0.0.1
+v0.0.2
 :toc:
 
 [colophon]
 == Copyright
 
-This edition of _The Adventures of Sherlock Holmes_ is maintained, archived, and curated as part of
+This edition of _The Brothers Karamazov_ is maintained, archived, and curated as part of
 the GITENBERG PROJECT.
 
 This work is in the public domain.
 
 If you find any issues with this work, please report them at
-https://github.com/GITenberg/The-Time-Machine_35/issues
+https://github.com/GITenberg/The-Brothers-Karamazov_28054/issues
 
 +
 
 Cover provided by Recovering the Classics
 
-Artist: Eleanor Beeden, (C) 2013
+Artist: Monica Alisse, (C) 2013
 
 Made available under a Creative Commons Attribution-NonCommercial 4.0 license
 
