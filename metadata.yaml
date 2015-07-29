@@ -1,0 +1,33 @@
+_repo: The-Brothers-Karamazov_28054
+creator:
+  author:
+    agent_name: Dostoyevsky, Fyodor
+    aliases:
+    - "\u0414\u043E\u0441\u0442\u043E\u0435\u0432\u0441\u043A\u0438\u0439, \u0424\u0451\
+      \u0434\u043E\u0440 \u041C\u0438\u0445\u0430\u0439\u043B\u043E\u0432\u0438\u0447"
+    - "Dostoievski, F\xE9dor Mikhailovitch"
+    - Dostoievski, Fiodor
+    - Dostoievski, Fedor Mikhailovitch
+    - Dostoevsky, Fyodor
+    birthdate: 1821
+    deathdate: 1881
+    gutenberg_agent_id: '314'
+    url: http://www.gutenberg.org/2009/agents/314
+    wikipedia: http://en.wikipedia.org/wiki/Fyodor_Dostoevsky
+gutenberg_bookshelf: Best Books Ever Listings
+gutenberg_issued: '2009-02-12'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '28054'
+language: en
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- '!lcsh:Brothers -- Fiction'
+- '!lcsh:Fathers and sons -- Fiction'
+- '!lcc:PG'
+- '!lcsh:Didactic fiction'
+- '!lcsh:Russia -- Social life and customs -- 1533-1917 -- Fiction'
+title: The Brothers Karamazov
+url: http://www.gutenberg.org/ebooks/28054
