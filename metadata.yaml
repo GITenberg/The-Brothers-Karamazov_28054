@@ -10,9 +10,9 @@ creator:
     agent_name: Dostoyevsky, Fyodor
     aliases:
     - Dostoevsky, Fyodor
+    - Достоевский, Фёдор Михайлович
     - Dostoievski, Fedor Mikhailovitch
     - Dostoievski, Fédor Mikhailovitch
-    - Достоевский, Фёдор Михайлович
     - Dostoievski, Fiodor
     birthdate: 1821
     deathdate: 1881
@@ -29,10 +29,10 @@ publisher: Project Gutenberg
 rights: Public domain in the USA.
 rights_url: http://creativecommons.org/about/pdm
 subjects:
-- '!lcsh:Didactic fiction'
-- '!lcsh:Fathers and sons -- Fiction'
-- '!lcsh:Russia -- Social life and customs -- 1533-1917 -- Fiction'
-- '!lcsh:Brothers -- Fiction'
-- '!lcc:PG'
+- '!lcc: PG'
+- '!lcsh: Brothers -- Fiction'
+- '!lcsh: Fathers and sons -- Fiction'
+- '!lcsh: Didactic fiction'
+- '!lcsh: Russia -- Social life and customs -- 1533-1917 -- Fiction'
 title: The Brothers Karamazov
 url: http://www.gutenberg.org/ebooks/28054
