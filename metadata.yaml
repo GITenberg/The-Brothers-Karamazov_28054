@@ -1,5 +1,5 @@
 _repo: The-Brothers-Karamazov_28054
-_version: 0.0.3
+_version: 0.1.0
 covers:
 - attribution: Roberlan Borges, 2015
   cover_type: original
@@ -36,5 +36,6 @@ subjects:
 - '!lcsh: Fathers and sons -- Fiction'
 - '!lcsh: Didactic fiction'
 - '!lcsh: Russia -- Social life and customs -- 1533-1917 -- Fiction'
+- GITenberg
 title: The Brothers Karamazov
 url: http://www.gutenberg.org/ebooks/28054
